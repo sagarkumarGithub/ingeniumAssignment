@@ -81,3 +81,22 @@
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+  .upperFooter {
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .newsletter {
+    width: 100%;
+  }
+
+  .follow {
+    width: 100%;
+  }
+}

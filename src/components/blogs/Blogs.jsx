@@ -26,7 +26,7 @@ const Blogs = () => {
       <div className="blogsCont">
         <h1>Latest Blogs</h1>
         <div className="blogs">
-          {data.map((item) => {
+          {data.slice(0, 12).map((item) => {
             const title = item.title;
             const body = item.body;
             return (
