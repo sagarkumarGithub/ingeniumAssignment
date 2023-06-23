@@ -1,0 +1,30 @@
+/* header section */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  padding: 3.6rem;
+}
+
+.links ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 4.8rem;
+  font-size: 2.2rem;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  font-size: 3.6rem;
+}
+

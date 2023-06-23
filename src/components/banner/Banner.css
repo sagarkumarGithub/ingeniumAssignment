@@ -1,0 +1,37 @@
+.banner {
+  background-image: url("https://c1.wallpaperflare.com/preview/283/819/730/laptop-computer-gadget-modern-technology-electronics.jpg");
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.banner button {
+  height: 5rem;
+  width: 15rem;
+  font-size: 2rem;
+  border-radius: 1.8rem;
+  border: none;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.banner button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+}
